@@ -129,10 +129,3 @@ jb.dump(resultados, 'model_linear_slab_XX')
 
 #%%
 
-# resultados3 = jb.load('model_linear_slab_100')
-def funcion(vec):
-    a = vec[0]*vec[1]
-    return a
-
-vec1 = [1,2]
-vecs = [vec1,vec2,vec3]
